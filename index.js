@@ -21,6 +21,5 @@ function iLoveTheBeatles(sentence){
     resultLoop.push("I love the Beatles!");
     i++;
     }
-  }
   return resultLoop;
-}
+  }
