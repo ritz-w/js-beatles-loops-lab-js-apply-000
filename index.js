@@ -19,8 +19,8 @@ function iLoveTheBeatles(sentence){
   var i = 0;
   do {
     resultLoop.push("I love the Beatles!");
-    i++
+    i++;
   }
-  while (i <= sentence && i < 15);
+  while (sentence <= 15);
   return resultLoop;
 }
