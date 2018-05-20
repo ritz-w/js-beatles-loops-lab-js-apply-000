@@ -13,3 +13,13 @@ function johnLennonFacts(facts){
   }
   return resultFacts;
 }
+
+function iLoveTheBeatles(sentence){
+  var resultLoop = [];
+  var i = 0;
+  do {
+    resultLoop.push("I love the Beatles!");
+    i++
+  } 
+  while (i < sentence);
+}
