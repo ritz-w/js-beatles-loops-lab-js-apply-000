@@ -21,6 +21,6 @@ function iLoveTheBeatles(sentence){
     resultLoop.push("I love the Beatles!");
     i++
   }
-  while (i <= sentence);
+  while (i <= sentence && i < 15);
   return resultLoop;
 }
