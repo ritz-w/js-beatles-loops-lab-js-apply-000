@@ -17,10 +17,9 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(sentence){
   var resultLoop = [];
   var i = 0;
-  do {
+  while (i <= 15 || i <= sentence); {
     resultLoop.push("I love the Beatles!");
     i++;
   }
-  while (i <= 15 || i <= sentence);
   return resultLoop;
 }
