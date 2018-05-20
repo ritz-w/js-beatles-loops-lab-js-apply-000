@@ -20,6 +20,7 @@ function iLoveTheBeatles(sentence){
   do {
     resultLoop.push("I love the Beatles!");
     i++
-  } 
+  }
   while (i < sentence);
+  return resultLoop;
 }
